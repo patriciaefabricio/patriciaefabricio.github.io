@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+.root {
+    max-width: 768px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.root .headerRoot {
+    background-color: #970f53;
+    padding: 0rem 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 60px;
+}
+
+.root .mainRoot {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.root .mainRoot .textMainRoot {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.root .mainRoot .boxItemPresente {
+    width: 75%;
+    background-color: rgba(126, 25, 75, 0.116);
+    border-radius: 15px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 35% 65%);
+}
+
+.root .mainRoot .boxItemPresente .fotoBoxItemPresente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.root .mainRoot .boxItemPresente .fotoBoxItemPresente img{
+    width: 80%;
+    border-radius: 15px;
+}
+
+
+.moneyCard {
+    color: #970f53;
+    font-family: "Lato", sans-serif;
+    font-size: 900;
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #970f53 !important;
+    border: #970f53  !important;
+}
+
+.textUserPag {
+    width: 80%;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+
+.root .footerRoot {
+    background-color: #970f53;
+    padding: 0rem 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 60px;
+}

@@ -1,0 +1,56 @@
+.pixChaves {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixChaves .qr-code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixChaves .qr-code img {
+    width: 40%;
+    border: 2px solid #970f53;
+    border-radius: 15px;
+}
+
+.chavesPag {
+    margin: 1rem;
+    text-align: center;
+}
+
+.btnPix {
+    margin: 1rem 0;
+    padding: 1rem 3rem;
+    background-color: #970f53;
+    color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.infoPix{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+
+
+.alertChave {
+    position: absolute !important;
+    z-index: 1;
+    width: 100%;
+}
+
+.on {
+    visibility: 100 !important;
+}
+
+.off {
+    display: none !important;
+}
